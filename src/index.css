@@ -1,0 +1,57 @@
+:root {
+  --text: #4b5563;
+  --text-h: #0f172a;
+  --muted: #94a3b8;
+  --bg: #f1f5f9;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+  --accent: #2563eb;
+  --accent-h: #1d4ed8;
+  --accent-bg: rgba(37, 99, 235, 0.08);
+  --success: #16a34a;
+  --success-bg: #dcfce7;
+  --error: #dc2626;
+  --error-bg: #fee2e2;
+  --shadow: rgba(15, 23, 42, 0.06) 0 6px 20px -4px,
+    rgba(15, 23, 42, 0.04) 0 2px 6px -2px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  font: 16px/1.5 var(--sans);
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+}
+
+h1 {
+  font-size: 28px;
+  color: var(--text-h);
+  margin: 0 0 4px;
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  color: var(--text-h);
+  margin: 0 0 8px;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
